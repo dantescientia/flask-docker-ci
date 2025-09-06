@@ -5,5 +5,3 @@ def test_root():
     resp = client.get("/")
     assert resp.status_code == 200
     assert b"Hello" in resp.data
-
-
