@@ -1,8 +1,12 @@
 # Flask Docker CI Demo
 
-## Run locally
-python3 app.py
+![CI](https://github.com/dantescientia/flask-docker-ci/actions/workflows/ci.yml/badge.svg)
 
-## Run in Docker
-docker build -t flask-app .
-docker run -p 5000:5000 flask-app
+## Live demo
+ [Render App](https://твоя-ссылка-на-render.onrender.com)
+
+## Docker image
+`ghcr.io/dantescientia/flask-docker-ci:latest`
+
+## Pipeline
+
